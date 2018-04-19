@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+	<include file="db/common/changelog/0001.rev.info.table.xml"/>
+
+
+	<include file="db/changelog/includeAll_level1/0001.includeAll.xml"/>
+	<include file="db/changelog/includeAll_level1/0002.includeAll.xml"/>
+
+	<include file="db/changelog/includeAll_level1/includeAll_level2/0001.includeAll.xml"/>
+	<include file="db/changelog/includeAll_level1/includeAll_level2/0002.includeAll.xml"/>
+
+	<include file="db/changelog/includeAll_level1/includeAll_level2/includeAll_level3/0001.includeAll.xml"/>
+	<include file="db/changelog/includeAll_level1/includeAll_level2/includeAll_level3/0002.includeAll.xml"/>
+
+	<include file="db/common/changelog/0002.include.depends.on.includeAll1.xml"/>
+	<include file="db/common/changelog/0003.include.depends.on.all.xml"/>
+</databaseChangeLog>

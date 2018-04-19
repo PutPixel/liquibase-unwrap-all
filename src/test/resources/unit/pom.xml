@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.putpixel</groupId>
+	<artifactId>test-project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Test project for includeAll</name>
+
+	<modules>
+		<module>../../../..</module>
+		<module>project-to-test-no-unwrap</module>
+		<module>project-to-test-with-unwrap</module>
+		<module>project-to-test-with-unwrap-with-nested-folders</module>
+	</modules>
+</project>
