@@ -3,7 +3,7 @@ This plugin workaround problem of liquibase with `<includeAll/>` tag un-wrapping
 
 See http://www.liquibase.org/documentation/includeall.html for more info.
 
-#Before-After
+# Before-After
 Changeslog file in project: https://github.com/PutPixel/liquibase-unwrap-all/blob/master/src/test/resources/unit/project-to-test-with-unwrap-with-nested-folders/src/main/resources/db/changelog/db.changelog-master.xml
 
 Changeslog file after processing: https://github.com/PutPixel/liquibase-unwrap-all/blob/master/src/test/resources/unit/project-to-test-with-unwrap-with-nested-folders/src/main/resources/db/changelog/db.changelog-master-should-be.xml
